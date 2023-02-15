@@ -6,4 +6,4 @@ PLATFORM_ID=23
 CC=/Users/radek/.particle/toolchains/gcc-arm/10.2.1/bin/arm-none-eabi-gcc-10.2.1
 
 all:
-	CC=$(CC) bear --force-wrapper -- make -f '/Users/radek/.particle/toolchains/buildscripts/1.10.0/Makefile' compile-user PARTICLE_CLI_PATH=$(PARTICLE_CLI_PATH) DEVICE_OS_PATH=$(DEVICE_OS_PATH) APPDIR=$(APPDIR) PLATFORM=$(PLATFORM) PLATFORM_ID=$(PLATFORM_ID) CC=$(CC)
+	CC=$(CC) bear -- make -f '/Users/radek/.particle/toolchains/buildscripts/1.10.0/Makefile' compile-user PARTICLE_CLI_PATH=$(PARTICLE_CLI_PATH) DEVICE_OS_PATH=$(DEVICE_OS_PATH) APPDIR=$(APPDIR) PLATFORM=$(PLATFORM) PLATFORM_ID=$(PLATFORM_ID) CC=$(CC)
